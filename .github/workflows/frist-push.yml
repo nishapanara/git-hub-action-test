@@ -1,0 +1,8 @@
+name: push-test-action
+on: push
+jobs:
+    fristjob:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Frist-step
+              run: echo "Welcome"
